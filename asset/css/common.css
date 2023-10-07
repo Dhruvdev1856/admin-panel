@@ -1,0 +1,253 @@
+/* width class */
+.w-1{
+	width:8.33%;
+}
+.w-2{
+	width:16.66%;
+}
+.w-3{
+	width:25%;
+}
+.w-4{
+	width:33.33%;
+}
+.w-5{
+	width:41.66%;
+}
+.w-6{
+	width:50%;
+}
+.w-7{
+	width:58.33%;
+}
+.w-8{
+	width:66.66%;
+}
+.w-9{
+	width:75%;
+}
+.w-10{
+	width:83.33%;
+}
+.w-11{
+	width:91.66%;
+}
+.w-12{
+	width:100%;
+}
+.w-25{
+    width:25%;
+}
+.w-50{
+	width:50%;
+}
+.w-75{
+    width:75%;
+}
+
+/* text align properties */
+.text-center{
+	text-align:center;
+}
+.text-left{
+	text-align:left;
+}
+.text-right{
+	text-align:right;
+}
+.text-justify{
+	text-align:justify;
+}
+/* text last align properties */
+.text-last-center{
+    text-align-last: center;
+}
+.text-last-left{
+    text-align-last: left;
+}
+.text-last-right{
+    text-align-last: right;
+}
+.text-last-justify{
+    text-align-last: justify;
+}
+/* text direction properties */
+.text-dir-rtl{
+    direction:rtl;
+}
+/* verical alignment properties */
+.vertical-baseline{
+    vertical-align: baseline;
+}
+.vertical-top{
+    vertical-align: text-top;
+}
+.vertical-bottom{
+    vertical-align: text-bottom;
+}
+.vertical-sub{
+    vertical-align: sub;
+}
+vertical-super{
+    vertical-align: super;
+}
+/* text decoration properties */
+.text-dec-line-through{
+    text-decoration-line: line-through;
+}
+.text-dec-overline{
+    text-decoration-line: overline;
+}
+.text-dec-underline{
+    text-decoration-line: underline;
+}
+/* text transfomation properties */
+.text-trans-cap{
+    text-transform: capitalize;
+}
+.text-trans-lower{
+    text-transform: lowercase;
+}
+.text-trans-upper{
+    text-transform: uppercasse;
+}
+/* display property */
+.dis-inline{
+    display: inline;
+}
+.dis-inline-block{
+    display: inline-block;
+}
+.dis-block{
+    display: block;
+}
+.dis-none{
+    display: none;
+}
+/* visiblility property */
+.vis-vis{
+    visibility: visible;
+}
+.vis-hid{
+    visibility: hidden;
+}
+/* flex properties */
+.d-flex{
+	display:flex;
+}
+/* flex wrap property */
+.flex-wrap{
+	flex-wrap:wrap;
+}
+.flex-nowrap{
+    flex-wrap:nowrap;
+}
+/* flex direction property */
+.flex-col-rev{
+    flex-direction: column-reverse;
+}
+.flex-row-rev{
+    flex-direction: row-reverse;
+}
+.flex-column{
+	flex-direction: column;
+}
+/* justify content property */
+.justify-center{
+	justify-content:center;
+}
+.justify-between{
+	justify-content:space-between;
+}
+.justify-around{
+	justify-content:space-around;
+}
+.justify-evenly{
+	justify-content:space-evenly;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+/* align items properties */
+.align-center{
+	align-items:center;
+}
+.align-baseline{
+    align-items: baseline;
+}
+.align-start{
+    align-items: flex-start;
+}
+.align-end{
+    align-items: flex-end;
+}
+/* align content properties */
+.align-con-start{
+    align-content: flex-start;
+}
+.align-con-end{
+    align-content: flex-end;
+}
+.align-con-cen{
+    align-content: center;
+}
+.align-con-space-between{
+    align-content: space-between;
+}
+.align-con-space-evenly{
+    align-content: space-evenly;
+}
+.align-con-space-around{
+    align-content: space-around;
+}
+/* align self properties */
+.align-self-center{
+	align-self:center;
+}
+.align-self-baseline{
+    align-self: baseline;
+}
+.align-self-start{
+    align-self: flex-start;
+}
+.align-self-end{
+    align-self: flex-end;
+}
+/* button property */
+.btn a{
+	padding:8px 36px;
+	color:var(--white);
+	background-color:var(--secondary);
+	font-size:18px;
+	transition:all 0.5s linear;
+}
+.btn a:hover {
+	background-color:var(--white);
+	color:var(--black);
+	border:1px solid var(--black);
+}
+/* header aero for dropdown  */
+header .menu ul li .menu-item::after{
+	content:"\f105";
+	font-family:fontAwesome;
+	color: var(--white);
+	font-size:12px;
+	position:absolute;
+	right:3px;
+	top:24px;
+}
+/* li relative */
+
+/* float property */
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float:right;
+}
+
