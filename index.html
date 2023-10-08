@@ -389,6 +389,489 @@
 
     <!-- aside section end -->
 
+    <!-- pagebody section start -->
+
+    <section class="page-body" id="page-body">
+        <ul class="body-heading d-flex flex-wrap align-center">
+            <li class="body-dashboard"><a>Dashboard</a></li>
+            <li class="sales"><a>Sales</a></li>
+        </ul>
+        <div class="main-body">
+            <div class="row">
+                <div class="w-8 w-xxl-12">
+                    <div class="main-1">
+                        <div class="revenue d-flex flex-wrap justify-between">
+                            <h5>Revenue</h5>
+                            <a><i class="fa-solid fa-ellipsis"></i></a>
+                        </div>
+                        <p>Total Profit <span>$10,840</span></p>
+                        <div id="incomechart"></div>
+                    </div>
+                </div>
+                <div class="w-4 w-xxl-12">
+                    <div class="main-2">
+                        <p>Sales By Category</p>
+                        <div class="margin">
+                            <div id="saleschart"></div>
+                        </div>
+                        <ul class="sales-pie d-flex flex-wrap align-center justify-evenly">
+                            <li class="Apparel">Apparel</li>
+                            <li class="Sports">Sports</li>
+                            <li class="Others">Others</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="w-4 w-xl-12">
+                    <div class="main-3">
+                        <div class="daily-sales-heading d-flex justify-between align-center">
+                            <div class="daily-sales">
+                                <h5>Daily Sales</h5>
+                                <span>Go to column for details.</span>
+                            </div>
+                            <div class="dollar">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                        </div>
+                        <div id="daily-sales-chart"></div>
+                    </div>
+                </div>
+                <div class="w-4 w-xl-6 w-sm-12">
+                    <div class="main-4">
+                        <div class="summary-heading d-flex flex-wrap align-center justify-between">
+                            <div class="left-head">
+                                <h5>Summary</h5>
+                            </div>
+                            <div class="right-head">
+                                <a><i class="fa-solid fa-ellipsis"></i></a>
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="summary-body">
+                            <div class="summary-income d-flex flex-wrap align-center">
+                                <div class="left-sum">
+                                    <a><i class="fa-solid fa-wallet"></i></a>
+                                </div>
+                                <div class="main-right">
+                                    <div class="right-sum d-flex align-center justify-between">
+                                        <h5>Income</h5>
+                                        <p>$92600</p>
+                                    </div>
+                                    <div class="progress1">
+                                        <div class="progress1-value"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="summary-profit d-flex align-center">
+                                <div class="left-sum">
+                                    <a><i class="fa-solid fa-coins"></i></a>
+                                </div>
+                                <div class="main-right">
+                                    <div class="right-sum d-flex align-center justify-between">
+                                        <h5>Profit</h5>
+                                        <p>$37515</p>
+                                    </div>
+                                    <div class="progress2">
+                                        <div class="progress2-value"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="summary-expenses d-flex align-center">
+                                <div class="left-sum">
+                                    <a><i class="fa-solid fa-money-check-dollar"></i></a>
+                                </div>
+                                <div class="main-right">
+                                    <div class="right-sum d-flex align-center justify-between">
+                                        <h5>Expenses</h5>
+                                        <p>$55085</p>
+                                    </div>
+                                    <div class="progress3">
+                                        <div class="progress3-value"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-4 w-xl-6 w-sm-12">
+                    <div class="main-5">
+                        <div class="order-heading d-flex flex-wrap align-center justify-between">
+                            <div class="order-left-head">
+                                <a><i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                            <div class="order-right-head">
+                                <h5>3,192</h5>
+                                <p>Total Orders</p>
+                            </div>
+                        </div>
+                        <div id="orderchart">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-4 w-xl-12">
+                    <div class="main-6">
+                        <div class="Transactions-heading d-flex flex-wrap align-center justify-between">
+                            <div class="left-head">
+                                <h5>Transaction</h5>
+                            </div>
+                            <div class="right-head">
+                                <a><i class="fa-solid fa-ellipsis"></i></a>
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="transaction-body">
+                            <div class="transaction-park d-flex flex-wrap align-center">
+                                <div class="left-sum">
+                                    <a><i class="fa-solid fa-wallet"></i></a>
+                                </div>
+                                <div class="main-right">
+                                    <div class="right-sum d-flex align-center justify-between">
+                                        <h5>Shanuk Park</h5>
+                                        <p>$36.11</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="transaction-withdrawal d-flex align-center">
+                                <div class="left-sum">
+                                    <a><i class="fa-solid fa-coins"></i></a>
+                                </div>
+                                <div class="main-right">
+                                    <div class="right-sum d-flex align-center justify-between">
+                                        <h5>Cash Withdrawal</h5>
+                                        <p>-16.44</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="transaction-diaz d-flex align-center">
+                                <div class="left-sum">
+                                    <a><i class="fa-solid fa-money-check-dollar"></i></a>
+                                </div>
+                                <div class="main-right">
+                                    <div class="right-sum d-flex align-center justify-between">
+                                        <h5>Amy Diaz</h5>
+                                        <p>$66.44</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="transaction-netflix d-flex align-center">
+                                <div class="left-sum">
+                                    <a><i class="fa-solid fa-money-check-dollar"></i></a>
+                                </div>
+                                <div class="main-right">
+                                    <div class="right-sum d-flex align-center justify-between">
+                                        <h5>Netflix</h5>
+                                        <p>-$32.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="transaction-anderson d-flex align-center">
+                                <div class="left-sum">
+                                    <a><i class="fa-solid fa-money-check-dollar"></i></a>
+                                </div>
+                                <div class="main-right">
+                                    <div class="right-sum d-flex align-center justify-between">
+                                        <h5>Daisy anderson</h5>
+                                        <p>$10.08</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="transaction-bill d-flex align-center">
+                                <div class="left-sum">
+                                    <a><i class="fa-solid fa-money-check-dollar"></i></a>
+                                </div>
+                                <div class="main-right">
+                                    <div class="right-sum d-flex align-center justify-between">
+                                        <h5>Electricity bill</h5>
+                                        <p>-$22.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-4 w-xl-6 w-lg-12">
+                    <div class="main-7">
+                        <div class="wrapper">
+                            <div class="w-header">
+                                <p class="current-date"></p>
+                                <div class="icons">
+                                    <span id="prev">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+                                        </svg>
+                                    </span>
+
+                                    <span id="next">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="calendar">
+                                <ul class="weeks">
+                                    <li>Sun</li>
+                                    <li>Mon</li>
+                                    <li>Tue</li>
+                                    <li>Wed</li>
+                                    <li>Thu</li>
+                                    <li>Fri</li>
+                                    <li>Sat</li>
+                                </ul>
+                                <ul class="days"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-4 w-xl-6 w-lg-12">
+                    <div class="main-8">
+                        <div class="wallet-main-body">
+                            <div class="wallet-balance">
+                                <div class="wallet-header d-flex flex-wrap align-center justify-between">
+                                    <div class="wallet-img d-flex align-center">
+                                        <img src="asset/images/wallet-profile.jpeg">
+                                        <p>Alan Green</p>
+                                    </div>
+                                    <div class="add-sym">
+                                        <a><i class="fa-solid fa-plus"></i></a>
+                                    </div>
+                                </div>
+                                <div class="wallet-body d-flex flex-wrap align-center justify-between">
+                                    <div class="wallet-main">
+                                        <p>Wallet Balance</p>
+                                    </div>
+                                    <div class="wallet-main-right">
+                                        <p>$2953</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pending-payment">
+                                <div class="pending-button">
+                                    <a>Pending</a>
+                                </div>
+                                <div class="pending-body1 d-flex justify-between">
+                                    <p class="p1">Netflix</p>
+                                    <p class="p2">$13.85</p>
+                                </div>
+                                <div class="pending-body2 d-flex justify-between">
+                                    <p class="p3">Bluehost VPN</p>
+                                    <p class="p4">$15.66</p>
+                                </div>
+                                <div class="payment-btn d-flex flex-wrap justify-around align-center">
+                                    <a class="details">View Details</a>
+                                    <a class="pay-now">Pay Now $29.15</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wallet-absolute d-flex justify-center align-center">
+                            <div class="received">
+                                <div class="received-header d-flex flex-wrap align-center justify-between">
+                                    <div class="received-left-head">
+                                        <p>Received</p>
+                                    </div>
+                                    <div class="received-right-head">
+                                        <a><i class="fa-solid fa-ellipsis"></i></a>
+                                    </div>
+                                </div>
+                                <div class="received-btn">
+                                    <p><a>$53.00</a></p>
+                                </div>
+                            </div>
+                            <div class="spent">
+                                <div class="spent-header d-flex flex-wrap align-center justify-between">
+                                    <div class="spent-left-head">
+                                        <p>Spent</p>
+                                    </div>
+                                    <div class="spent-right-head">
+                                        <a><i class="fa-solid fa-ellipsis"></i></a>
+                                    </div>
+                                </div>
+                                <div class="spent-btn">
+                                    <p><a>$53.00</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-6 w-lg-12">
+                    <div class="main-9">
+                        <div class="table1-header">
+                            <h4>Recent Orders</h4>
+                        </div>
+                        <div class="table1-main">
+                            <table>
+                                <thead class="table1-heading">
+                                    <tr>
+                                        <th class="head-1">Customer</th>
+                                        <th class="head-2">Products</th>
+                                        <th class="head-3">Invoices</th>
+                                        <th class="head-4">Price</th>
+                                        <th class="head-5">Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="first-col d-flex flex-wrap align-center ">
+                                            <img src="asset/images/profile-6.jpeg">
+                                            <p>Luke</p>
+                                        </td>
+                                        <td class="second-col">Head</td>
+                                        <td class="third-col">#64584</td>
+                                        <td class="forth-col">$56</td>
+                                        <td class="fifth-col-paid"><a>Paid</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-col d-flex flex-wrap align-center ">
+                                            <img src="asset/images/profile-7.jpeg">
+                                            <p>Andy</p>
+                                        </td>
+                                        <td class="second-col">Nike</td>
+                                        <td class="third-col">#82152</td>
+                                        <td class="forth-col">$126</td>
+                                        <td class="fifth-col-shipped"><a>Shipped</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-col d-flex flex-wrap align-center ">
+                                            <img src="asset/images/profile-8.jpeg">
+                                            <p>andy</p>
+                                        </td>
+                                        <td class="second-col">Suns</td>
+                                        <td class="third-col">#94711</td>
+                                        <td class="forth-col">$56</td>
+                                        <td class="fifth-col-paid"><a>Paid</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-col d-flex flex-wrap align-center ">
+                                            <img src="asset/images/profile-9.jpeg">
+                                            <p>Ryan</p>
+                                        </td>
+                                        <td class="second-col">Sports</td>
+                                        <td class="third-col">#14524</td>
+                                        <td class="forth-col">$110</td>
+                                        <td class="fifth-col-shipped"><a>Shipped</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-col d-flex flex-wrap align-center ">
+                                            <img src="asset/images/profile-10.jpeg">
+                                            <p>Irene</p>
+                                        </td>
+                                        <td class="second-col">Speaker</td>
+                                        <td class="third-col">#13426</td>
+                                        <td class="forth-col">$56</td>
+                                        <td class="fifth-col-paid"><a>Paid</a></td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-6 w-lg-12">
+                    <div class="main-10">
+                        <div class="table1-header">
+                            <h4>Top Selling Products</h4>
+                        </div>
+                        <div class="table1-main">
+                            <table>
+                                <thead class="table1-heading">
+                                    <tr>
+                                        <th class="head-1">Product</th>
+                                        <th class="head-2">Price</th>
+                                        <th class="head-3">Discount</th>
+                                        <th class="head-4">Sold</th>
+                                        <th class="head-5">Source</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="first-col d-flex flex-wrap align-center ">
+                                            <img src="asset/images/product-headphones.jpg">
+                                            <div class="para">
+                                                <p>phone</p>
+                                                <p class="h-p">Digital</p>
+                                            </div>
+                                        </td>
+                                        <td class="second-col">$168</td>
+                                        <td class="third-col">$60</td>
+                                        <td class="forth-col">170</td>
+                                        <td class="fifth-col-direct"><a>Direct</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-col d-flex flex-wrap align-center ">
+                                            <img src="asset/images/product-shoes.jpg">
+                                            <div class="para">
+                                                <p>Shoe</p>
+                                                <p class="s-p">Fashion</p>
+                                            </div>
+                                        </td>
+                                        <td class="second-col">$126</td>
+                                        <td class="third-col">$47</td>
+                                        <td class="forth-col">130</td>
+                                        <td class="fifth-col-google"><a>Google</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-col d-flex flex-wrap align-center ">
+                                            <img src="asset/images/product-watch.jpg">
+                                            <div class="para">
+                                                <p>Watch</p>
+                                                <p class="w-p">Access</p>
+                                            </div>
+                                        </td>
+                                        <td class="second-col">$56</td>
+                                        <td class="third-col">$20</td>
+                                        <td class="forth-col">66</td>
+                                        <td class="fifth-col-ads"><a>Ads</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-col d-flex flex-wrap align-center ">
+                                            <img src="asset/images/product-laptop.jpg">
+                                            <div class="para">
+                                                <p>Laptop</p>
+                                                <p class="l-p">Digital</p>
+                                            </div>
+                                        </td>
+                                        <td class="second-col">$110</td>
+                                        <td class="third-col">$33</td>
+                                        <td class="forth-col">35</td>
+                                        <td class="fifth-col-email"><a>Email</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first-col d-flex flex-wrap align-center ">
+                                            <img src="asset/images/product-camera.jpg">
+                                            <div class="para">
+                                                <p>photo</p>
+                                                <p class="c-p">Digital</p>
+                                            </div>
+                                        </td>
+                                        <td class="second-col">$56</td>
+                                        <td class="third-col">$26</td>
+                                        <td class="forth-col">30</td>
+                                        <td class="fifth-col-referrals"><a>Referrals</a></td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- page-body section end -->
+
     <!-- jquery section start -->
 
     <!-- map jquery -->
